@@ -1,0 +1,250 @@
+#h{
+  text-align: center;
+  font-size:70px;
+  margin: auto;
+  margin-top: 300px;
+  font-weight: bold;
+  color:goldenrod
+  
+}
+.logo{
+  float: left;
+  margin-top: 22px;
+  height: 70px;
+  width: 90px;
+
+}
+  ul {
+   list-style: none;
+  padding-right: 45px;
+  margin-top: 12px;
+  height: 680px;
+  overflow: hidden;
+  background-image: url('pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  padding-top: 12px;
+  float: right;
+  font-size: 22px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: none;
+  height:60px ;
+  font-weight: bold;
+  background-color:chartreuse;
+  border-bottom: 30px;
+  color:black;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color:deeppink;
+}
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+ .content{
+  background-color: lightsalmon;
+ }
+ .container1{
+  border: 2px solid;
+ }
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container2 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+#message{
+  height: 120px;
+}
+.submit-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.h1{
+  background-color:brown;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+
+.customers{
+  margin-top: 40px;
+  padding: 40px 0;
+  background: linear-gradient(blue, rgba(0, 20, 0, 0)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
+}
+.customer{
+  background: white;
+  padding: 35px;
+  text-align: center;
+  margin: 24px 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.rating{
+  margin: 10px 0;
+  color: var(--yellow);
+}
+.customer h3{
+  font-size: 25px;
+}
+.customer p{
+  opacity: 0.7;
+  line-height: 1.8;
+  width: 60%;
+  margin: 0 auto;
+}
+.customer img{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 25px auto;
+}
+.customer span{
+  font-weight: 700;
+  opacity: 0.7;
+}
+.customer:hover{
+  transform: translateY(-18px);
+}
+@media(max-width: 602px){
+  .customers-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+  }
+}
+@media(max-width: 600px){
+  .customers-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media(max-width: 500px){
+  .customer p{
+      width: 100%;
+  }
+  .customer img{
+      width: 100px;
+      height: 100px;
+  }
+}
+
+
+
+.hee{
+  background-color: cadetblue;}
+.car{
+  margin: 2px;
+  border: 2px solid black;
+   background-color:khaki;
+}
+
+@media screen and (max: 600px){
+  .hello{
+    position: absolute;
+    display: inline;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 6px;
+    text-align: center;
+  }
+  li{
+    float: none;
+    display:-webkit-inline-box;
+    
+  }
+  ul{
+    height: 300px;
+    width: 700px;
+  }
+}
